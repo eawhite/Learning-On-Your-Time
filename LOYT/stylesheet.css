@@ -1,0 +1,70 @@
+html { 
+  background-image: url("Learning.jpg"); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#navMenu{
+	margin: 0px;
+	padding: 0px;
+}
+
+#navMenu ul{
+	margin: 0px;
+	padding: 0px;
+	line-height: 30px;
+}
+
+#navMenu li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	position: relative; 
+	background: #999;
+}
+
+#navMenu ul li a{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	text-decoration:none;
+	height: 30px;
+	width: 150px;
+	display: block; 
+	color: #FFF;
+	border: 1px solid #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#navMenu ul ul{
+	position: absolute;
+	visibility: hidden; 
+	top: 32px;
+}
+
+#navMenu ul li:hover ul{
+	visibility: visible;
+}
+
+/*****************************************************************************/
+#navMenu li:hover{
+	background: #09F;
+}
+
+#navMenu ul li:hover ul li a:hover{
+	background: #CCC;
+	color: #0000;
+}
+
+#navMenu a:hover{
+	color: #000;
+}
+
+.clearFloat{
+	clear: both;
+	margin:0;
+	padding:0;
+}
